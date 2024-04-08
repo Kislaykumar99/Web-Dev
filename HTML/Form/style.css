@@ -1,0 +1,20 @@
+/* label{
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+} */
+div{
+    margin: 5px;
+}
+body{
+    background: hsla(171, 87%, 67%, 1);
+
+background: radial-gradient(circle, hsla(171, 87%, 67%, 1) 23%, hsla(236, 100%, 72%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(171, 87%, 67%, 1) 23%, hsla(236, 100%, 72%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(171, 87%, 67%, 1) 23%, hsla(236, 100%, 72%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#61F4DE", endColorstr="#6E78FF", GradientType=1 );
+}

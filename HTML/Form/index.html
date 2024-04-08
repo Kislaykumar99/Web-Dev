@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="/help">
+       
+     <div>
+        <label for="user">Username : </label>
+        <input type="text" name="username" id="user" placeholder="Enter your name"> 
+     </div>
+     <div>
+        <label for="password">Passaword : </label>
+        <input type="password" name="p" id="password" placeholder="Password" >
+     </div>
+     <div>
+        <label for="color"> Color :</label>
+        <input type="color" id="color" name="color" >
+    </div>
+     <div>
+        <label for="number">Number: </label>
+        <input type="number" id="number" placeholder="Number only" name="number" min="1" max="1000" step="2">
+    </div>
+    
+    <button>
+        submit
+    </button>
+        
+        
+    </form>
+
+    <form action="">
+<label for="checkbox">Agree tos</label>
+        <input type="checkbox" name="checkbox " id="checkbox" checked>
+    </form>
+    <caption>choose you cloth size</caption>
+    <form action="">
+        <label for="L">L</label>
+        <input type="radio" name="size" id="Large" value="L">
+        <label for="M">M</label>
+        <input type="radio" name="size" id="M" value="M">
+        <label for="S">S</label>
+        <input type="radio" name="size" id="S" value="S">
+
+        <div>
+            <label for="meal"> choose your meal</label>
+         <select name="meal" id="meal">
+            <option value="">Choose your preferred meal</option>
+            <option value="veg" selected>Veg</option>
+            <option value="Nveg">Non-Veg</option>
+            <option value="NO">No meal</option>
+
+        </select>
+    </div>
+
+        <div>
+        <label for="volume">Please use slider to control volume</label>
+            <input type="range"  name="volume" id="volume" value="75"  min="1" max="100">
+        </div>
+        
+
+        <div>
+            <button>Submit</button>
+        </div>
+        </form>
+
+        <DIV>
+        <p>Feel free to put down your request and suggestion.Wer are eager to hear you!</p> 
+            <label for="requests"></label>
+           <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+        </DIV>
+
+    
+
+    </form>
+    
+</body>
+</html>
